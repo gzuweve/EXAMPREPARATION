@@ -133,8 +133,45 @@
 #     kolvo2 = s.count("1")
 #     ost2 = kolvo2 % 2
 #     ss = s + str(ost2)
-#     if 43 < int(ss, 2):
-#         print(int(ss,2))
+#     t = int(ss, 2)
+#     if 43 < t:
+#         print(t)
+
+# 64890 скип
+# h = 0
+# for n in range(1, 2000000000):
+#     nn = bin(n)[2::]
+#     nn += str(bin(n % 4))[2::]
+#     nn = int(nn, 2)
+#     if nn >= 1000000000 and nn <= 17894556123:
+#         h += 1
+# print(h)
+
+# 73831
+# for n in range(1,1000000000):
+#     d = bin(n)[2::]
+#     h = d.count('1')
+#     j = d.count('0')
+#     h = bin(h)[2::]
+#     j = bin(j)[2::]
+#     m = h + j
+#     m = int(m,2)
+#     if m == 214:
+#         print(n)
+
+# 7751
+# for x in range(1000,10000):
+#     k = str(x)
+#     f = int(k[0]) + int(k[1])
+#     s = int(k[2]) + int(k[3])
+#     if f > s:
+#         m = str(s) + str(f)
+#     else:
+#         m = str(f) + str(s)
+#     if int(m) == 117:
+#         print(x)
+
+
 
 
 
